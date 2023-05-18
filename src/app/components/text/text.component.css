@@ -1,0 +1,51 @@
+.text {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: .5rem;
+}
+
+.topic {
+    font-weight: 300;
+    font-size: 1rem;
+    color: var(--dark-grayish-blue);
+}
+
+.title {
+    font-size: 1.8rem;
+    font-family: 'Fraunces', serif;
+}
+
+.paragraph {
+    color: var(--dark-grayish-blue);
+    line-height: 1.4rem;
+}
+
+.price {
+    display: flex;
+    align-items: center;
+    gap: .8rem
+}
+
+.price1{
+    font-family: 'Fraunces', serif;
+    font-size: 1.8rem;
+    color: var(--dark-cyan);
+}
+
+.price2 {
+    font-size: .8rem;
+    font-weight: 500;
+    color: var(--dark-grayish-blue);
+}
+
+@media screen and (min-width: 700px){
+    .text {
+        gap: 1rem;
+    }
+}
+@media screen and (min-width: 900px){
+    .text {
+        gap: 2rem;
+    }
+}

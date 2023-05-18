@@ -1,0 +1,9 @@
+<div class="text">
+    <h2 class="topic" [ngStyle]="{textTransform: 'uppercase'}">{{topic}}</h2>
+    <h1 class="title">{{title}}</h1>
+    <p class="paragraph">{{text}} <span [ngStyle]="{textTransform: 'uppercase'}">{{span}}</span>.</p>
+    <div class="price">
+        <p class="price1">$ {{price1}}</p>
+        <p class="price2" [ngStyle]="{textDecoration: 'line-through'}">$ {{price2}}</p>
+    </div>
+</div>

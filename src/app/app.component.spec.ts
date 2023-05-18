@@ -12,16 +12,16 @@ describe('AppComponent', () => {
     expect(app).toBeTruthy();
   });
 
-  it(`should have as title 'angular-chanel-frontendmentor'`, () => {
+  it(`should have as title 'easy-layout'`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.componentInstance;
-    expect(app.title).toEqual('angular-chanel-frontendmentor');
+    expect(app.title).toEqual('easy-layout');
   });
 
   it('should render title', () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const compiled = fixture.nativeElement as HTMLElement;
-    expect(compiled.querySelector('.content span')?.textContent).toContain('angular-chanel-frontendmentor app is running!');
+    expect(compiled.querySelector('.content span')?.textContent).toContain('easy-layout app is running!');
   });
 });
