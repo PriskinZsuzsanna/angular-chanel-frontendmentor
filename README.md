@@ -2,7 +2,7 @@ Built with
 
 - Angular
 - CSS
- -MOBILE-FIRST WORKFLOW
+- MOBILE-FIRST WORKFLOW
 
 What I learned:
 
