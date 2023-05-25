@@ -14,5 +14,6 @@ What I learned:
 
 Links: https://priskinzsuzsanna.github.io/angular-chanel-frontendmentor/
 
-Screenshot: ![png](https://github.com/PriskinZsuzsanna/angular-photo-gallery/assets/121173949/2351ce15-6093-4979-b796-1680b6a1bde4)
+Screenshot: 
+![png](https://github.com/PriskinZsuzsanna/angular-photo-gallery/assets/121173949/2351ce15-6093-4979-b796-1680b6a1bde4)
 
