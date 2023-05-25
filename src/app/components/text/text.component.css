@@ -1,24 +1,26 @@
 .text {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-    gap: .5rem;
+    justify-content: center;
+    gap: .8rem;
 }
 
 .topic {
     font-weight: 300;
-    font-size: 1rem;
+    font-size: 1em;
+    letter-spacing: 4px;
     color: var(--dark-grayish-blue);
 }
 
 .title {
-    font-size: 1.8rem;
+    font-size: 2em;
     font-family: 'Fraunces', serif;
 }
 
 .paragraph {
     color: var(--dark-grayish-blue);
-    line-height: 1.4rem;
+    line-height: 1.4em;
+    font-size: 1em;
 }
 
 .price {
@@ -29,22 +31,22 @@
 
 .price1{
     font-family: 'Fraunces', serif;
-    font-size: 1.8rem;
+    font-size: 2em;
     color: var(--dark-cyan);
 }
 
 .price2 {
-    font-size: .8rem;
+    font-size: 1em;
     font-weight: 500;
     color: var(--dark-grayish-blue);
 }
 
-@media screen and (min-width: 700px){
+@media screen and (min-width: 400px){
     .text {
         gap: 1rem;
     }
 }
-@media screen and (min-width: 900px){
+@media screen and (min-width: 600px){
     .text {
         gap: 2rem;
     }

@@ -4,15 +4,14 @@
     width: 90%;
     margin-inline: auto;
     max-width: 800px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
+    display: grid;
+    grid-template-columns: 1fr;
 }
 
 @media screen and (min-width: 600px){
     .app-card {
-        flex-direction: row;
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
     }
 }
 
