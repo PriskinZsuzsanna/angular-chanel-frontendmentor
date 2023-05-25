@@ -1,27 +1,21 @@
-# AngularChanelFrontendmentor
+Built with
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
+Angular
+CSS
+MOBILE-FIRST WORKFLOW
+What I learned:
 
-## Development server
+ng generate component
+usind Properties and Interpolation
+inline styling: [ngStyle]="{textTransform: 'uppercase'}"
+media query with images: 
+      <picture>
+        <source media="(min-width: 600px)" srcset="assets/images/image-product-desktop.jpg">
+        <img src="assets/images/image-product-mobile.jpg" />
+    </picture>
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
 
-## Code scaffolding
+Links: https://priskinzsuzsanna.github.io/angular-chanel-frontendmentor/
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+Screenshot: ![png](https://github.com/PriskinZsuzsanna/angular-photo-gallery/assets/121173949/2351ce15-6093-4979-b796-1680b6a1bde4)
 
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
