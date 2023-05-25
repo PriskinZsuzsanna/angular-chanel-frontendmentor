@@ -9,11 +9,7 @@ What I learned:
 - ng generate component
 - usind Properties and Interpolation
 - inline styling: [ngStyle]="{textTransform: 'uppercase'}"
-- media query with images: 
-     -  <picture>
-       -  <source media="(min-width: 600px)" srcset="assets/images/image-product-desktop.jpg">
-      -   <img src="assets/images/image-product-mobile.jpg" />
-   -  </picture>
+- media query with images: picture tag
 
 
 Links: https://priskinzsuzsanna.github.io/angular-chanel-frontendmentor/
