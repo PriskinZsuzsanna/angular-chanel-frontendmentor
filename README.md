@@ -10,10 +10,10 @@ What I learned:
 - usind Properties and Interpolation
 - inline styling: [ngStyle]="{textTransform: 'uppercase'}"
 - media query with images: 
-      <picture>
-        <source media="(min-width: 600px)" srcset="assets/images/image-product-desktop.jpg">
-        <img src="assets/images/image-product-mobile.jpg" />
-    </picture>
+     -  <picture>
+       -  <source media="(min-width: 600px)" srcset="assets/images/image-product-desktop.jpg">
+      -   <img src="assets/images/image-product-mobile.jpg" />
+   -  </picture>
 
 
 Links: https://priskinzsuzsanna.github.io/angular-chanel-frontendmentor/
